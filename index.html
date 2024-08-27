@@ -59,13 +59,25 @@
     </h2>
     <form action="#" method="post">
         <fieldset class="infos">
-            <label for="nomPrenom">
-                votre identité <input type="text" name="nomPrenom" id="nomPrenom" required></label>
+            <label for="nomPrenom">Votre identité </label>
+            <input type="text" name="nomPrenom" id="nomPrenom" placeholder="Nom / prenom" required>
+            <label for="courriel">Votre courriel</label>
+            <input type="email" name="courriel" id="courriel" required>
         </fieldset>
+        <fieldset class="infos">
+            <label for="comments">Commentaires</label>
+            <textarea name="comments" id="comments" required></textarea>
+        </fieldset>
+        <button type="submit">Envoyer</button>
     </form>
 </section>
-
-
-
+<aside>
+    <a href="http://shop.wwf.ca/fr" target="_blank"> <img src="img/gift.png" alt="pub wwf">
+    </a>
+</aside>
+<footer>
+    <p>Sources : Textes / photos WWF - http://www.wwf.ca/fr/
+    </p>
+</footer>
 </body>
 </html>
